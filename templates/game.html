@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+  <title>Play Game</title>
+</head>
+<body>
+
+<h1>Hi there! Welcome to the game.</h1>
+
+<form action="/madlib">
+    <label for="person-name-entry">Enter a name:</label>
+    <input type="text" name="person" id="person-name-entry">
+    <section>
+        Choose a color: 
+        <input type="radio" name="color" value="green" id="green-color">
+        <label for="green-color">Green</label>
+
+        <input type="radio" name="color" value="black" id="black-color">
+        <label for="black-color">Black</label>
+
+        <input type="radio" name="color" value="red" id="red-color">
+        <label for="red-color">Red</label>
+
+        <input type="radio" name="color" value="blue" id="blue-color">
+        <label for="blue-color">Blue</label>
+
+
+        <!-- <input type="checkbox" name="color" value="green" id="green-color">
+        <label for="green-color">Green</label>
+
+        <input type="checkbox" name="color" value="black" id="black-color">
+        <label for="black-color">Black</label>
+
+        <input type="checkbox" name="color" value="red" id="red-color">
+        <label for="red-color">Red</label>
+
+        <input type="checkbox" name="color" value="blue" id="blue-color">
+        <label for="blue-color">Blue</label> -->
+    </section>
+    <section>
+        <label for="noun-entry">Enter a noun:</label>
+        <input type="text" name="noun" id="noun-entry">
+    </section>  
+    <section>
+        <label for="adj-select">Choose an adjective:</label>
+
+        <select name="adj" id="adj-select">
+            <option value="tenacious">Tenacious</option>
+            <option value="frightening">Frightening</option>
+            <option value="narcicisstic">Narcisstic</option>
+            <option value="colorful">Colorful</option>
+        </select>
+    </section>
+    <input type="submit">
+</form>
+
+</body>
+</html>
